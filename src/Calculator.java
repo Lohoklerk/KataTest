@@ -156,7 +156,7 @@ public class Calculator
                 arNumber=0;
                 result+="IV";
             }
-            if(arNumber>=1&&arNumber<3){
+            if(arNumber>=1&&arNumber<=3){
                 arNumber--;
                 result+="I";
             }
