@@ -116,7 +116,7 @@ public class Calculator
                 arNumber-=900;
                 result+="CM";
             }
-            if(500<=arNumber){
+            if(500<=arNumber && arNumber<900){
                 arNumber-=500;
                 result+="D";
             }
